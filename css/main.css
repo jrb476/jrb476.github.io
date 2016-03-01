@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+body {
+  background-color: rgba(179, 27, 27, 0.75);
+  font-family: Raleway;
+}
+
+button {
+  background-color: rgb(179, 27, 27);
+  color: white;
+}
+
+button:hover {
+  color: rgb(179, 27, 27);
+  background-color: white;
+}
+
+/* http://stackoverflow.com/questions/21006170/bootstrap-full-height-background-cover-image */
+#cover{
+   background: url("../img/IMG_3679.JPG") no-repeat center center fixed;
+   /*background: url("../img/cover.jpg") no-repeat center center fixed;*/ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  /*margin-top: -72px;*/
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+#cover img {
+  width: 35%;
+  margin-left: 0;
+  padding-top: 20px;
+  position: relative;
+  float:left;
+}
+
+@media (max-width: 767px) {
+  #cover img {
+    width: 50%;
+  }
+}
+
+#body-container {
+  background-color: white;
+}
+
+@media (min-width:768px) {
+  #body-container {
+    -o-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0px 30px;
+  }
+}
+
+section {
+  padding: 20px;
+}
+
+.meet_text {
+  padding: 0px 40px;
+  font-size: 1.5em;
+}
+
+.custom-nav {
+  margin: 0;
+  border: 0;
+  /*background-color: rgb(179, 27, 27);*/
+}
+
+.about {
+  padding: 20px;
+  text-align: center;
+}
+
+.about .col-md-4 {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 20px 0px;
+  background-color: rgb(179, 27, 27);
+}
+
+.about .col-md-4:hover {
+  background-color: #fff;
+  border-color: rgb(179, 27, 27);
+}
+
+.about .col-md-4:hover span, .about .col-md-4:hover p{
+  color: rgb(179, 27, 27);
+}
+
+.about .row {
+  padding: 20px;
+}
+
+.about p {
+  color: #fff;
+}
+
+.about span{
+  font-size: 3em;
+  color: #fff;
+}
+
+.button_done, .button_do {
+  width: 150px;
+  text-align: center;
+  padding:10px;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  border-top: 5px solid #eee;
+}
+
+.col-md-4{
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  margin: auto;
+}
+
+#contact img {
+  width: 20%;
+}
+
+h4 {
+  color: rgb(179, 27, 27);
+  padding-top: 10px;
+}
